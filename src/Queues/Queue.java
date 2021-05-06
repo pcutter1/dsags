@@ -32,8 +32,9 @@ public class Queue {
     } else if (head == tail) {
       head = null;
       tail = null;
+    } else {
+      head = head.next;
     }
-    head = head.next;
   }
 
 
