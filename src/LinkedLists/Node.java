@@ -1,13 +1,11 @@
 package LinkedLists;
 
 public class Node {
+  public Object data;
+  public Node next;
 
-  int data;
-  Node next;
-
-  public Node(int data) {
+  public Node(Object data) {
     this.data = data;
   }
-
 
 }
