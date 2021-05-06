@@ -7,14 +7,14 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class LinkedListTest {
 
-//  @Test
-//  public void nodeHoldsIntegerData() {
-//    Node node = new Node(5);
-//    int expected = 5;
-//    int actual = node.data;
-//
-//    assertEquals(expected, actual, "New node data value should be 5");
-//  }
+  @Test
+  public void nodeHoldsIntegerData() {
+    Node node = new Node(5);
+    Object expected = 5;
+    Object actual = node.data;
+
+    assertEquals(expected, actual, "New node data value should be 5");
+  }
 
   @Test
   public void testLLEmptiness() {
